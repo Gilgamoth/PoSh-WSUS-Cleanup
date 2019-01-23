@@ -30,7 +30,7 @@ $ErrorActionPreference = "SilentlyContinue"
 
 # E-Mail Report Details
 	$Cfg_Email_To_Address = "recipient@domain.local"
-	$Cfg_Email_From_Address = "WSUS-Report@wolftdomainech.local"
+	$Cfg_Email_From_Address = "WSUS-Report@domain.local"
 	$Cfg_Email_Subject = "WSUS: Cleanup Results From " + $env:computername
 	$Cfg_Email_Server = "mail.domain.local"
     $Cfg_Email_Send = $false
